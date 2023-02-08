@@ -4,11 +4,17 @@
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="certifications.html">Certificações</a>
+        </nav>
+    </header>
     <main class ="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
@@ -16,14 +22,19 @@
             </strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Sou Luísa Machado, desenvolvedora trainee em Back-end e agora me especializando em Front-end, com HTML, CSS e JavaScript, esse é o meu PortFolio com acesso ao meu repositório Git e perfil no LinkedIn.</p>
             <div class = "apresentacao__links">
-                <a class = "apresentacao__links__link" href="https://www.linkedin.com/in/lumachados/">LinkedIn</a>
-                <a class = "apresentacao__links__link" href="https://github.com/lumachadoss">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo"> Acesse minhas redes:</h2>
+                <a class = "apresentacao__links__link" href="https://www.linkedin.com/in/lumachados/">
+                    <img src="img/linkedin.png" alt="icon LinkedIn">
+                    LinkedIn</a>
+                <a class = "apresentacao__links__link" href="https://github.com/lumachadoss">
+                    <img src="img/github.png" alt="icon github">
+                    GitHub</a>
             </div> 
          </section>
          <div class="perfil">
-            <img src="perfil.png" alt="Foto de Luísa Machado programando">
+            <img src="./img/perfil.png" alt="Foto de Luísa Machado">
          </div>
     </main>
-    <footer></footer>
+    <footer class="rodape">Desenvolvido por Luísa Machado.</footer>
 </body>
 </html>
